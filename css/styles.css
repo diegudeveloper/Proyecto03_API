@@ -74,4 +74,16 @@ li, a {
 /*MEIN CONTAINER*/
 
 
+.container_avocado {
+    width: 80%;
+    height: 200px;
+    border: 1px solid #000;
+
+    display: flex;
+    
+}
+
+.container_imgAvocado {
+
+}
 
