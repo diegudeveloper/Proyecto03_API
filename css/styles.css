@@ -84,6 +84,8 @@ li, a {
 }
 
 .container_imgAvocado {
-
+    width: 100%;
 }
-
+.container_imgAvocado img {
+    width: 100%;
+}
