@@ -32,12 +32,12 @@ body {
     width: 100%;
     height: 10vh;
     /*background-color: var(--main-color-bg);*/
-    background-image: url(/img/01.jpg);
-    background-size: 20%;
+    background-image: url(/img/plant.png);
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: right;
-    margin-left: 15px;
-    background-position-y: -155%;
+    position: relative;
+    background-position-y: -15%;
 }
 
 .containerMenu {
@@ -46,37 +46,50 @@ body {
     margin: 0 auto;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 input {
     display: none;
-}
+} 
 
 label {
     width: 20%;
+    cursor: pointer;
 }
 
 .containerUl {
-    width: 80%;
-    
+    width: 80%;  
     display: flex;
-    justify-content: flex-end;
+    /*flex-direction: column;*/
+    justify-content: flex-start;
     align-items: center;
-    display: none;
+    /*display: none;*/
+    z-index: 100;
+    transform: translateX(130%);
+    transition: all 500ms ease;
 }
 
+
 li, a {
-    list-style: none;  
+    list-style: none;
     text-decoration: none;
     cursor: pointer;
-    margin-left: 0.2rem;
+    margin-left: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: #000;
+    cursor: pointer;
+}
+
+#btn-menu:checked ~ .containerUl {
+    transform: translateX(0);
 }
 
 /*MEIN CONTAINER*/
 
- 
+
 
 .container_avocado {
     width: 90%;
@@ -87,6 +100,7 @@ li, a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     margin-bottom: 10px;
     background-color: var(--main-color-bg);
 
@@ -103,7 +117,7 @@ li, a {
     width: 70%;
     border-radius: 50%;
     margin-left: 10px;
-    
+
 }
 
 .container_text_avocado {
@@ -121,7 +135,9 @@ li, a {
     border-radius: 5px;
     background-color: #fff;
     margin-top: 15px;
-    color: var(--font-color-text); 
+    /*color: var(--font-color-text);*/
+    color: rgba(0, 0, 0, 0.76);
+    text-align: center;
 }
 
 .btn_description {
@@ -132,6 +148,7 @@ li, a {
     margin-top: 15px;
     background-color: #fff;
     color: var(--font-color-text);
+    cursor: pointer;
 }
 
 .descriptionAvocado {
