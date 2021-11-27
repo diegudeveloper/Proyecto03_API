@@ -127,7 +127,14 @@ li, a {
 .hero {
     width: 100%;
 }
+
 .containerHeroImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fondoHero {
     width: 100%;
     display: flex;
     justify-content: center;
