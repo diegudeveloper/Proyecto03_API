@@ -9,7 +9,6 @@
     --margin--botton: 30px;
     --font-family: 'Roboto', sans-serif;
     --font-color-text: rgb(144, 196, 52);
-
 }
 
 * {
@@ -24,6 +23,10 @@ body {
 }
 
 /*MENU*/
+
+.main_container {
+    background-color: #9adb2a3a;
+}
 
 .containerHeader {
     width: 100%;
@@ -73,19 +76,64 @@ li, a {
 
 /*MEIN CONTAINER*/
 
+ 
 
 .container_avocado {
-    width: 80%;
+    width: 90%;
     height: 200px;
-    border: 1px solid #000;
-
+    /*border: 1px solid #000;*/
+    overflow: hidden;
+    border-radius: 0 30px 30px 0;
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: var(--main-color-bg);
+
+    background: #90c434;
+    box-shadow:  8px 8px 10px #a9c578;
+    -8px -8px 10px #ffffff; #ffffff;
+
 }
 
 .container_imgAvocado {
-    width: 100%;
+    width: 50%;
 }
 .container_imgAvocado img {
-    width: 100%;
+    width: 70%;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+}
+
+.container_text_avocado {
+ width: 50%;
+ color: #fff;
+}
+
+.nameAvocado {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.priceAvocado {
+    width: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 15px;
+    color: var(--font-color-text); 
+}
+
+.btn_description {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: var(--font-color-text);
+}
+
+.descriptionAvocado {
+
 }
