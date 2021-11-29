@@ -17,10 +17,12 @@ window.fetch(`${baseUrl}/api/avo`)
                     <h2 class="nameAvocado">${data.name}</h2>
                     <h3 class="idAvocado">${data.id}</h3>
                     <h3 class="priceAvocado"> € ${data.price}</h3>
-                    <button class="btn_description">Description...</button>
+                    
+                    <label for="btn-modal" class="lbl-modal btn_description">Description...</label>
                 </div>
         </div>  
         ` 
+        
     })
 
 });
