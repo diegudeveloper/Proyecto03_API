@@ -236,7 +236,7 @@ li, a {
 }
 
 .contenedor header {
-    padding: 10px;
+    padding: 20px;
     background: var(--main-color-bg);
     color: #fff;
 }
