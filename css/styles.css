@@ -181,6 +181,10 @@ li, a {
     font-weight: 700;
 }
 
+.tasteAvocado {
+    font-weight: 300;
+}
+
 .priceAvocado {
     width: 60px;
     border-radius: 5px;
@@ -202,6 +206,7 @@ li, a {
     cursor: pointer;
     padding: 5px 5px;
     text-align: center;
+    font-weight: 300;
 }
 
 /*Ventana Modal*/
@@ -318,7 +323,7 @@ footer {
 }
 
 .container_logo img {
-    width: 30%; 
+    width: 60%; 
 }
 
 .text_footer {
@@ -401,7 +406,7 @@ footer {
         width: 30%;
     }
     .container_logo img {
-        width: 15%;
+        width: 25%;
     }
 
     .contenido {
