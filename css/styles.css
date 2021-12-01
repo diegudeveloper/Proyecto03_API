@@ -237,20 +237,40 @@ li, a {
     text-align: center
 }
 
+.contenido {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+} 
+
 .contenedor header {
     padding: 20px;
     background: var(--main-color-bg);
     color: #fff;
+    
+}
+
+.name_modal {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contenedor label {
-    width: 10px;
+    width: 30px;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 30px;
     font-size: 18px;
-    color: #fff;
+    color: red;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .lbl-modal {
@@ -339,6 +359,13 @@ footer {
         max-width: 45%;
         border-radius: 30px 30px 30px 30px;
     }
+
+    .contenedor {
+        max-width: 50%;
+    }
+
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -375,6 +402,10 @@ footer {
     }
     .container_logo img {
         width: 15%;
+    }
+
+    .contenido {
+        padding: 20px;
     }
     
 }
@@ -428,6 +459,10 @@ footer {
 
     .container_logo img {
         width: 15%;
+    }
+
+    .contenedor {
+        max-width: 30%;
     }
 }
 
