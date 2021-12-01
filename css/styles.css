@@ -233,6 +233,8 @@ li, a {
     transition: all 500ms ease;
     position: relative;
     transform: translateY(-30%);
+    font-size: 0.7rem;
+    text-align: center
 }
 
 .contenedor header {
