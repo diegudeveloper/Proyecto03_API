@@ -16,19 +16,54 @@
 </head>
 <body>
 
-    <div class="main_container">
-        <header class="containerHeader">
-            <menu class="containerMenu">
-                    <input type="checkbox" id="btn-menu">
-                    <label for="btn-menu" class="icon-menu"><i class="fas fa-bars"></i></label>
-                    <div class="logoImg"><img src="img/logo01.png.crdownload" alt="" class="logoMenu"></div>
-                <ul class="containerUl">
-                    <li><a href="">Nosotros /</a></li>
-                    <li><a href="">Productos /</a></li>
-                    <li><a href="">Conctatanos</a></li>
-                </ul>
-            </menu>
+    <!-- <div class="main_container"> -->
+        <header>
+            <section class="container_header">
+
+                <i class="fas fa-bars btn_menu"></i>
+                <div class="logo_picture">
+                    <i class="fas fa-shopping-basket"></i>
+                    <a href="" class="logo"><span>C</span>ogro</a>
+                </div>
+                <nav class="navbar">
+                    <a href="home.html">home</a>
+                    <a href="shop.html">shop</a>
+                    <a href="about.html">about</a>
+                    <a href="review.html">review</a>
+                    <a href="blog.html">blog</a>
+                    <a href="contact.html">contact</a>
+                </nav>
+                <a href="" class="logoMenu"><span>C</span>ogro</a>
+
+                <div class="icons">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="far fa-user"></i></a>
+                </div>
+
+                <div class="search">
+                    <input type="search" placeholder="search here...">
+                    <label for="" class="fas fa-search"></label>
+                </div>
+
+                <!-- login form container  -->
+
+                <div class="container_login">
+                    <i class="fas fa-times" id="btn_close"></i>
+                    <form action="">
+                        <h3>login</h3>
+                        <input type="email" class="box" placeholder="enter your email">
+                        <input type="password" class="box" placeholder="enter your password">
+                        <input type="submit" value="login now" class="btn">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                        <p>forget password? <a href="#">click here</a></p>
+                        <p>don't have and account? <a href="#">register now</a></p>
+                    </form>
+                </div>
+            </section>
         </header>
+
+
         <main class="container_main">
             <section class="hero">
                 <div class="containerHeroImg">
@@ -62,7 +97,7 @@
                 © 2021 – Diegu Gutiérrez
             </div>
         </footer>
-    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
