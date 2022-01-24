@@ -36,7 +36,7 @@ searchBtn.addEventListener("click", () => {
 const baseUrl = 'https://platzi-avo.vercel.app';
 const url = 'https://platzi-avo.vercel.app/api/avo';
 
-const containerInfo = document.querySelector('.container_main');
+const containerInfo = document.querySelector('.box-container_products');
 
 function showDescription(description, name) {
   const domElement = document.querySelector('.contenido');
