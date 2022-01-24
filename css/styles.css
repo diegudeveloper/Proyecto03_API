@@ -263,7 +263,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/img/brand1.jpg);
+    background-image: url(../img/brand1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -963,8 +963,6 @@ header {
     .contenedor {
         max-width: 50%;
     }
-
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -1007,10 +1005,7 @@ header {
     .contenido {
         padding: 20px;
     }
-
-    
 }
-
 
 @media screen and (min-width: 1920px) {
     .logoImg {
@@ -1084,11 +1079,6 @@ header {
     }
 }
 
-
-
-
-
-
 /*ventana modal*/
 
 .ventanaModal {
@@ -1098,6 +1088,3 @@ header {
 .btnModal {
     display: block;
 }
-
-
-
