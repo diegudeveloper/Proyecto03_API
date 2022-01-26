@@ -59,12 +59,6 @@ body {
     clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
 }
 
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
-
-
 /*MENU*/
 
 header {
@@ -190,7 +184,6 @@ header {
     top: 0;
 }
 
-
 .container_login .fa-times {
     position: absolute;
     top: 20px;
@@ -252,14 +245,9 @@ header {
 
 /*MEIN CONTAINER*/
 
-/* .container_main {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}*/
-
 .hero {
     width: 100%;
-    height: ;
+    height: 90vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -311,7 +299,6 @@ header {
 }
 
 /*****features*****/
-
 
 .features {
     margin-top: 5rem;
@@ -399,25 +386,7 @@ header {
     align-items: center;
 }
 
-
-
 .container_avocado {
-    /* width: 80%;
-    margin: 0 auto;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 0 30px 30px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: var(--main-color-bg);
-
-    background: #90c434;
-    box-shadow:  8px 8px 10px #a9c578;
-                -8px -8px 10px #ffffff; */
-
     width: 50%;
     padding: 3rem 2rem;
     background: #fff;
@@ -649,7 +618,6 @@ header {
     padding:.5rem 0;
 }
 
-
 /*****.review*****/
 
 .review {
@@ -714,8 +682,6 @@ header {
 }
 
 /*FOOTER*/
-
-
 
 .footer .box-container{
     /* display: grid;
@@ -821,10 +787,6 @@ header {
     color:var(--orange);
 }
 
-
-
-
-
 .footer {
     margin: 80px 0 10px;
     text-align: center;
@@ -848,33 +810,11 @@ header {
     padding: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*MEDIA QUIERI*/
-
-
-@media (max-width: 450px) {
-
-    .container_header .logo_picture .fa-shopping-basket {
-        font-size: 2rem;
+@media (max-width: 600px) {
+    /*header*/
+    .container_login .fa-times {
+        left: 90%;
     }
-    
     .container_header .navbar {
         display: flex; 
         flex-direction: column;
@@ -888,28 +828,21 @@ header {
         border-top: 1px solid #fff;
         z-index: 999;
     }
+    .container_header .navbar_active {
+        left: 0;
+    }
     .container_header .navbar a {
         padding: 3rem;
         border-bottom: 1px solid #cccc;
     }
-
-    .container_header .navbar_active {
-        left: 0;
-    }
-
     .container_header .logoMenu{
         display: none;
     }
-
     .container_header .fa-bars {
         display: block;
         color: #fff;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
-    .container_login .fa-times {
-        left: 90%;
-    }
-
     .containerText {
         text-align: center;
     }
@@ -917,174 +850,128 @@ header {
         font-size: 3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-    }
-
-    .containerText h3 {
+    }.containerText h3 {
         width: 90%;
         margin: 0 auto;
         font-size: 1.3rem;
     }
-
     .heading {
         text-align: center;
     }
-        
-
-}
-
-@media screen and (min-width: 768px) {
-    .containerHeader {
-        height: 20vh;
-    }
-    .fa-bars {
+    .container_header .logo_picture .fa-shopping-basket {
         font-size: 2rem;
     }
-    .containerUl {
-        padding: 20px 0;
+    /*hero*/
+    .hero {
+        height: 90vh;
     }
-
-    a {
-        font-size: 1.1rem;
+    .hero .content h3 {
+        font-size: 3rem;
     }
+    .hero .content p {
+        width: 90%;
+        font-size: 1remrem;
+    }
+    /*features*/
+    .features .box-container .box {
+        width: 90%;
+    }
+    /*products*/ 
+    .container_avocado {
+        width: 100%;
+        margin: 10px auto;
+    }
+    .nameAvocado {
+        font-size: 2rem;
+    }
+    .tasteAvocado {
+        font-size: 1.8rem;
+    }
+    /*review*/
+    .review .review-slider .box {
+        width: 100%;
+    }
+    /*blog*/
+    .blogs .box-container .box {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .blogs .box-container .box .content a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--main-color-bg);
+    }
+    /*footer*/
+    .footer .box-container .box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer .box-container .box .email {
+        border: none;
+        padding: 1.5rem;
+    }
+    .footer .box-container .box .btn {
+        margin-top: 1rem;
+        display: inline-block;
+        padding: .8rem 3rem;
+        font-size: 1.7rem;
+        border-radius: .5rem;
+        border: .2rem solid #000;
+        color: var(--black);
+        cursor: pointer;
+        background: none;
+        transition: all 0.3s ease;
+    }
+    .footer .box-container .box .btn:hover {
+        background-color: var(--main-color-bg);
+        color: #fff;
+    }
+}
 
-    .mainText {
+@media (max-width: 768px) {
+    .hero .content p {
+        width: 50%;
+    }
+    /*products*/
+    .container_avocado {
+        width: 45%;
+    }
+    .container_imgAvocado img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    /*review*/
+    .review .review-slider .box {
+        width: 45%;
+    }
+    /*blogs*/
+    .blogs .box-container {
         width: 90%;
         margin: 0 auto;
     }
-    .container_main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .blogs .box-container .box {
+        width: 45%;
     }
-    .container_avocado {
-        max-width: 45%;
+    .footer .box-container .box {
+        width: 33%;
     }
-
-    .contenedor {
-        max-width: 50%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .logoImg {
-        width: 20%;
-    }
-    .containerHeader {
-        height: 10vh;
-    }
-    .containerMenu {
-        height: 10vh;
-        position: relative;
-    }
-    .containerUl {
-        width: 50%;
-        position: absolute;
-        top: 30px;
-        transform: translateX(140%);
-    }
-    .hero {
-        display: flex;
-    }
-    .containerText {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0 30px;
-    }
-    .mainText {
-        margin-top: 60px;
-    }
-    .container_avocado {
-        width: 30%;
-    }
-    .container_logo img {
-        width: 25%;
-    }
-
-    .contenido {
-        padding: 20px;
-    }
-}
-
-@media screen and (min-width: 1920px) {
-    .logoImg {
-        width: 10%;
-    }
-    .hero {
-        width: 100%;
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 60px;
-    }
-    .fondoHero {
-        width: 100%;
-    }
-    .containerHeroImg img {
-        width: 60%
-    }
-    .containerText {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .h1 {
-        font-size: 54px;
-    }
-
-    .h3 {
-        width: 60%;
-        margin: 0 auto;
-        font-size: 1.5rem;
-    }
-
-    .container_avocado {
-        width: 22%;
+    .footer .box-container .box h3 {
         text-align: center;
     }
-
-
-    .container_avocado:hover{
-        outline: var(--outline-hover);
-        outline-offset: 0rem;
+    .footer .box-container .box:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        align-items: center
     }
-
-    .container_imgAvocado {
-        width: 40%;
+    .footer .box-container .box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+    .footer .box-container .box:nth-child(4) {
+        width: 80%;
         margin: 0 auto;
     }
-
-    .container_logo img {
-        width: 15%;
-    }
-
-    .contenedor {
-        max-width: 30%;
-    }
-
-    .features .box-container .box {
-        width: 80%;
-    }
-
-    .features .box-container .box {
-        width: 30%;
-    }
-
-    .review .review-slider .box{
-        width: 22%;
-    }
-}
-
-/*ventana modal*/
-
-.ventanaModal {
-    width: 100%;
-}
-
-.btnModal {
-    display: block;
 }
