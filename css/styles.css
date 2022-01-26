@@ -704,7 +704,9 @@ header {
 
 .footer .box-container p {
     width: 100%;
-    border-top: 1px solid var(--light-color);
+    border-top: 1px solid var(--light-color); 
+    font-size: 1.5rem;
+    padding-bottom: 15px;
 }
 
 .footer .box-container .box {
@@ -1005,8 +1007,7 @@ header {
         cursor: pointer;
         color: var(--main-color-bg);
     }
-    
-    
+
 } 
 
 @media (min-width: 1024px) {
