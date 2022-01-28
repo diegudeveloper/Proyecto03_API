@@ -513,11 +513,16 @@ header {
 } 
 
 
-.contenedor .name_modal {
-    font-size: 1.8rem;
+.contenedor .name_modal_troll {
+    width: 100%;
+    font-size: 1.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.contenedor .name_modal_troll p {
+    padding-left: 15%;
 }
 
 .contenedor label {

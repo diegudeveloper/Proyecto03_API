@@ -43,7 +43,7 @@ function showDescription(description, name) {
   domElement.innerHTML = `<p>${description}<p>`;
 
   console.log(name);
-  const namemodal = document.querySelector('.name_modal');
+  const namemodal = document.querySelector('.name_modal_troll');
   namemodal.innerHTML = `<p>${name}<p>`;
 }
 
