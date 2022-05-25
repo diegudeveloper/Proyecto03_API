@@ -19,7 +19,7 @@
 ## Bienvenido! 👋
 
 
-[Proyecto API](https://diegudeveloper.github.io/Html_css_Coffe_Webside_Layout-/) es parte de mi portafolio de proyectos con un nivel un poco más profesional, al igual que otros, es el resultado de mis habilidades adquiridas en los diferentes cursos tomados en distintas plataformas online, que con el pasar del tiempo entre lecturas, ejercicios y práctica voy afianzando mis habilidades y conocimientos.
+[Proyecto API](https://diegudeveloper.github.io/Proyecto03_API/) es parte de mi portafolio de proyectos con un nivel un poco más profesional, al igual que otros, es el resultado de mis habilidades adquiridas en los diferentes cursos tomados en distintas plataformas online, que con el pasar del tiempo entre lecturas, ejercicios y práctica voy afianzando mis habilidades y conocimientos.
 
 Con este proyecto subimos un poco más el escalón y agregamos dinamismo con el lenguaje de programación JavaScript, al igual que los demás proyectos, se usó en primera instancia el módulo de Flexbox en Css y el diseño fue realizado bajo la plataforma de platzi en uno de sus cursos.
 
@@ -49,7 +49,7 @@ Con este proyecto subimos un poco más el escalón y agregamos dinamismo con el 
 ## Welcome! 👋
 
 
-[API Project](https://diegudeveloper.github.io/Html_css_Coffe_Webside_Layout-/) is part of my portfolio of projects with a little more professional level, like others, is the result of my skills acquired in different courses taken in different online platforms, with the passage of time between readings, exercises and practice I strengthen my skills and knowledge. 
+[API Project](https://diegudeveloper.github.io/Proyecto03_API/) is part of my portfolio of projects with a little more professional level, like others, is the result of my skills acquired in different courses taken in different online platforms, with the passage of time between readings, exercises and practice I strengthen my skills and knowledge. 
 
 This project is mainly based on its layout, it was used in first instance the Flexbox module in Css and the design was selected from the Youtube channel: Tutorials Online.
 
